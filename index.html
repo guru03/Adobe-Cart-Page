@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Adobe Cart Page">
+    <meta name="language" content="en-us">
+
+    <title>Adobe Cart Page</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <!-- <link href="venders/fontawesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet"> -->
+
+    <!-- Custom Style Sheet -->
+    <link href="/styles/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- =============================
+            Header Section Starts
+         *****************************  -->
+
+    <div class="container">
+        <section class="all-items">
+            <p>All Items</p>
+            <p class="item-added">Items2 is added to cart</p>
+            <a href="javascript:void(0)" class="goToCart">Go to cart <span class="cart-badge">0</span></a>
+        </section>
+
+        <section id="productList" class="product-list"></section>
+        <h3>Order Summary</h3>
+        <section class="summary">
+
+            <div class="order-summary" id="orderSummary">
+                <div class="summary-head">
+                    <div class="column">
+                        <p>Items (4)</p>
+                    </div>
+                    <div class="column">
+                        <p>Qty</p>
+                    </div>
+                    <div class="column">
+                        <p>Price</p>
+                    </div>
+                </div>
+            </div>
+            <div class="total-section">
+                <div class="total-price">
+                    <h4>Total</h4>
+                    <div class="total-col items">
+                        <p class="itemNumber">Items <span>0</span></p>
+                        <p>$1070</p>
+                    </div>
+                    <div class="total-col discount">
+                        <p>Discount</p>
+                        <p>$1070</p>
+                    </div>
+                    <div class="total-col type-discount">
+                        <p>Type Discount</p>
+                        <p>$1070</p>
+                    </div>
+                    <div class="total-col order-total">
+                        <p>Order Total</p>
+                        <p class="totalOrderSum">$ <span>0</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ================================
+                JAVA SCRIPT
+         ================================ -->
+    <!-- jQuery library -->
+    <script src="scripts/jquery/jquery.js"></script>
+    <!--
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <script>
+        window.jQuery || document.write("<script src='js/jquery.min.js'><\/script>");
+    </script> -->
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
